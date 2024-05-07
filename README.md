@@ -27,7 +27,7 @@ El repositorio está organizado de la siguiente manera:
 
 ## Uso de la API
 
-Para utilizar la API, envía una solicitud POST a la ruta `/analiza_sentimiento` con el siguiente formato JSON:
+Para utilizar la API, envía una solicitud POST a la ruta `/analiza_sentimiento` con el siguiente formato JSON en **inglés**:
 
 ```json
 {
@@ -38,8 +38,9 @@ La API devolverá una respuesta con el sentimiento predicho y su probabilidad as
 
 ```json
 {
-  "Sentimiento": "Positiva",
+  "Sentimiento": "Positive",
   "Probabilidad": "80%"
 }
 ```
+Esto debe hacer en **inglés**, ya que es el idioma en que estaban las reseñas.
 
