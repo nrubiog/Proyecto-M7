@@ -27,7 +27,7 @@ El repositorio está organizado de la siguiente manera:
 
 ## Uso de la API
 
-Para utilizar la API, envía una solicitud POST a la ruta `/analiza_sentimiento` con el siguiente formato JSON en **inglés**:
+Para utilizar la API, envía una solicitud POST a la ruta https://rubiog.pythonanywhere.com/analiza_sentimiento en un API Tester como Postman con el siguiente formato JSON en **inglés**:
 
 ```json
 {
